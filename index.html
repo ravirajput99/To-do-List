@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="images/TitleImage.png" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <title>Todo List</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="text-center text-light my-4">
+        <h1 class="mb-4">Todo List</h1>
+        <input
+          class="form-control m-auto input search"
+          type="text"
+          name="search"
+          placeholder="Search todo"
+        />
+      </header>
+      <div class="row m-auto rowclass">
+        <div class="col-6 text-center text-light tobedone">To be done</div>
+        <div class="col-6 text-center text-light completed">Completed</div>
+      </div>
+      <ul class="list-group mx-auto todos text-light"></ul>
+      <p id="empty" class="text-center font-weight-bold"></p>
+      <div class="addtask text-center my-4">
+        <label class="text-light">Add a new todo...</label>
+        <input
+          class="form-control m-auto input"
+          type="text"
+          name="add"
+          id="input"
+          placeholder="Enter your task here"
+        />
+        <button class="btn btn-primary">Add todo</button>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/todo.js"></script>
+  </body>
+</html>

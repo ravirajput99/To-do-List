@@ -1,0 +1,63 @@
+body {
+  background: linear-gradient(263deg, #1633be, transparent);
+}
+.container {
+  max-width: 430px;
+}
+.todos li {
+  background-color: #5353e2;
+}
+.input,
+.input:focus {
+  color: black;
+  border: none;
+  background-color: rgb(255 255 255 / 90%);
+  max-width: 430px;
+}
+ul li:hover {
+  background-color: #4040d1;
+}
+.delete {
+  cursor: pointer;
+}
+.filtered {
+  display: none !important;
+}
+.search:hover,
+.input:hover {
+  background-color: #cccccc;
+}
+.strike {
+  text-decoration: line-through;
+}
+.tobedone {
+  background-color: #1c3a7cef;
+  border: 1px solid #b3b3b3;
+  border-style: groove;
+  border-radius: 2px;
+}
+.completed {
+  background-color: rgba(180, 180, 180, 0.815);
+  border-style: groove;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.tobedone:hover {
+  background-color: #091c7e;
+  /* border: 3px solid #b3b3b3;
+  border-style: groove;
+  border-radius: 5px; */
+  cursor: pointer;
+}
+.completed:hover {
+  background-color: rgba(138, 138, 138, 0.521);
+  border-style: groove;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* .rowclass {
+  min-height: 30px;
+} */
+.display {
+  display: none !important;
+}
